@@ -1,0 +1,8 @@
+name: First Workflow
+on: push
+jobs:
+  first-job:
+    runs-on: ubuntu-latesty
+    steps:
+      - name: Print greeting
+      run: echo "Hello World from LabEx"
